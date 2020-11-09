@@ -1,8 +1,8 @@
-# React-portfolio
+# Portfolio
 
 My Portfolio
 
 
 https://Ndife.github.io/portfolio/
 
-![](test.gif)
+
