@@ -15,7 +15,7 @@ class Intro extends React.Component {
           <div className="table-cell">
             <div className="container">
               <h1 className="intro-title mb-4">Hello, I am NDIFE UCHENNA</h1>
-              <p style={{marginLeft:"22%", marginRight:"22%", textAlign:"center"}}>Over the past 3 years, as a Full Stack Developer, I’ve worked with big companies and up-coming startups to successfully help them reach their full potential and attract new customers.</p>
+              <p style={{marginLeft:"22%", marginRight:"22%", textAlign:"center"}}>I am a fullstack web developer who is proficient in both frontend and backend technologies. My passion lies in learning about the latest technologies and building tools to help humanity.</p>
               <p className="intro-subtitle">
                 <span className="text-slider-items"></span>
                 <strong className="text-slider">

@@ -68,7 +68,7 @@ class About extends React.Component {
             <div className="col-sm-12">
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-6">
+                  {/* <div className="col-md-6">
                     <div className="row">
                       <div
                         className="col-sm-6 col-md-5"
@@ -87,7 +87,7 @@ class About extends React.Component {
                     </div>
                     <div className="skill-mf">
                       {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
+                      {/* {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
                             <span>{skill.content}</span>{" "}
@@ -108,8 +108,8 @@ class About extends React.Component {
                         );
                       })}
                     </div>
-                  </div>
-                  <div className="col-md-6">
+                  </div> */} 
+                  <div className="col-md-12">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
@@ -122,7 +122,7 @@ class About extends React.Component {
                         );
                       })} */}
                         <p className="lead">
-                          <p> I am a Full-Stack Web Application developer with a passion for web technologies. I write robust, clean,re-usable and maintainable code. This also means I strive to follow best practices and use industry-standard tools, including git-flow Continous Integration (Travis-CI), linting (ESLint, Prettier), package management (Yarn and NPM), and modern build tools (Webpack, Babel). Although I've a wide range of experience, the technology I prefer and/or am most familiar with includes React, Redux, Node, JavaScript ES6, Sass/CSS/, HTML.</p>
+                          <p> I am a Full-Stack Web Application developer with a passion for web technologies. I write robust, clean,re-usable and maintainable code. This also means I strive to follow best practices and use industry-standard tools, including linting (ESLint, Prettier), package management (Yarn and NPM), and modern build tools (Webpack, Babel). Although I've a wide range of experience, the technology I prefer and/or am most familiar with includes HTML, CSS, SASS JavaScript ES6, React, Redux, Node.</p>
                         </p>
                         <h3>Frontend Development</h3>
                         <h3>
@@ -130,7 +130,6 @@ class About extends React.Component {
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">CSS</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">JavaScript</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">React</span>
-                          <span style={{margin:"10px"}} class="badge badge-pill badge-primary">Apollo</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">Redux</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">Styled-Components</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">SASS</span>
@@ -139,7 +138,6 @@ class About extends React.Component {
                         <h3>Backend Development</h3>
                         <h3>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">NodeJs</span>
-                          <span style={{margin:"10px"}} class="badge badge-pill badge-primary">Django</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">GraphQL</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">MongoDB</span>
                           <span style={{margin:"10px"}} class="badge badge-pill badge-primary">SQL</span>
