@@ -156,7 +156,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href="https://www.linkedin.com/in/stiles-ndife-a5299a159/"
+                              href="https://www.linkedin.com/in/uchenna-ndife-a5299a159/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
